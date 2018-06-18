@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+}
+
+.todo > div {
+    margin: 15px 5px
+}
+
+table  {
+    margin-top: 25px;
+    border: 1px solid #f2f2f2;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+/*verde #4CAF50*/
+th  {
+    background-color: #0099cc;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/*#00CCFF
+oscuro #545c64*/
+.top-bar {
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: #0099cc;
+    color: #FFFFFF;
+}
+
+.el-dropdown-link {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.menu-mini-info {
+    padding-left: 1em;
+    line-height: normal;
+    font-size: 0.8em;
+    display: block;
+    text-align: right;
+    color: darkorange;
+}
+
+label {
+    color: #0099cc;
+    font-size: 0.9em;
+    float: left;
+    margin-left: 0.7em;
+}
